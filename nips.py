@@ -30,14 +30,13 @@ def data_to_json(paper_link_list):
 		authors_string = authors_string.replace('\n','').replace('\r','')
 		#print(authors_string)
 
-		summary = soup.find('p', {"class", "abstract"}).text
-		summary_string = summary.replace('\n','').replace('\r','')
+		summary_string = soup.find("p", {"class", "abstract"}).text.replace("$","")
 		#print(summary_string)
 
 		all_links = soup.find_all('a')
 		for pdf_link in all_links:
 			if "[PDF]" in pdf_link.text:
-				pdf = "https://papers.nips.cc"+pdf_link.attrs['href']
+				pdf = "http://papers.nips.cc"+pdf_link.attrs['href']
 		pdf_string = pdf
 		#print(pdf_string)
 
@@ -70,7 +69,7 @@ def paper_url(year_url):
 
 	for li_tags in container.find_all('li'):
 		a_tag = li_tags.find('a')
-		paper_url = 'https://papers.nips.cc'+a_tag.attrs['href']
+		paper_url = 'http://papers.nips.cc'+a_tag.attrs['href']
 		paper_url_list.append(paper_url)
 
 	#return paper_url_list
@@ -79,9 +78,12 @@ def paper_url(year_url):
 
 	#return json_list
 
-	ran_str = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 5))
+	#ran_str = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 5))
 
-	path = 'json/'+f'{str(ran_str)}_nips.json'
+	file_name = soup.find("h2", {"class":"subtitle"}).text
+	#print(file_name)
+
+	path = 'json/'+f'{str(file_name)}.json'
 
 	with open(path, 'w') as fp:
 		json.dump(json_list, fp)
@@ -90,7 +92,7 @@ def paper_url(year_url):
 
 if __name__ == '__main__':
 
-	res = requests.get('https://papers.nips.cc/')
+	res = requests.get('http://papers.nips.cc/')
 	src = res.content
 	soup = BeautifulSoup(src, 'lxml')
 
@@ -100,12 +102,14 @@ if __name__ == '__main__':
 
 	for li_tags in container.find_all('li'):
 		a_tag = li_tags.find('a')
-		year_urls.append('https://papers.nips.cc'+a_tag.attrs['href'])
+		year_urls.append('http://papers.nips.cc'+a_tag.attrs['href'])
 
 	#print(year_urls)
 
 	#for year_url in year_urls:
 	#	print(year_url)
+
+	year_urls = ['http://papers.nips.cc/book/neural-information-processing-systems-1987']
 
 	for year_url in year_urls:
 		#print(year_url)
