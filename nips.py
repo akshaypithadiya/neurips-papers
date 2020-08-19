@@ -1,92 +1,79 @@
+from bs4 import BeautifulSoup
+import requests
 import json
 import re
-import string 
-import random 
-import requests
-from bs4 import BeautifulSoup
 
 
-def data_to_json(paper_link_list):
+def data_to_json(paper_list):
 
-	list_of_dic = []
+	list_dic = []
 
-	count = 0
+	papers_scraped = 0
 
-	for paper_link in paper_link_list:
+	for paper_url in paper_list:
 
-		res = requests.get(paper_link)
+		res = requests.get(paper_url)
 		src = res.content
 		soup = BeautifulSoup(src, 'lxml')
-
+		
 		title = soup.find('h2',{'class':'subtitle'}).text
-		string_title = title.replace('\n','').replace('\r','')
-		#print(string_title)
 
-		authors_list = []
-		authors = soup.find("ul", {"class", "authors"})
-		for a_tags in authors.find_all('a'):
-			authors_list.append(a_tags.text)
-		authors_string = ', '.join(authors_list)
-		authors_string = authors_string.replace('\n','').replace('\r','')
-		#print(authors_string)
+		authors = []
+		auths = soup.find("ul", {"class", "authors"})
+		for a in auths.find_all('a'):
+			authors.append(a.text)
+		authors = ', '.join(authors)
 
-		summary_string = soup.find("p", {"class", "abstract"}).text.replace("$","")
-		#print(summary_string)
+		summary = soup.find("p", {"class", "abstract"}).text.replace("$","")
 
-		all_links = soup.find_all('a')
-		for pdf_link in all_links:
+		alla = soup.find_all('a')
+		for pdf_link in alla:
 			if "[PDF]" in pdf_link.text:
 				pdf = "http://papers.nips.cc"+pdf_link.attrs['href']
-		pdf_string = pdf
-		#print(pdf_string)
+		pdf_link = pdf
 
 		dic = {
-
-		'title' : string_title,
-		'authors' : authors_string,
-		'summary' : summary_string,
-		'link' : pdf_string
-
+			'title' : title,
+			'authors' : authors,
+			'summary' : summary,
+			'link' : pdf_link
 		}
 
-		count+=1
-		print("Number of links done: ", count)
+		papers_scraped+=1
+
+		print("Papers scraped :", papers_scraped)
 		
-		list_of_dic.append(dic)
+		list_dic.append(dic)
 
-	return list_of_dic
+	return list_dic	
 
 
-def paper_url(year_url):
 
-	paper_url_list = []
+def papers(year_link):
 
-	res = requests.get(year_url)
+	paper_list = []
+
+	res = requests.get(year_link)
 	src = res.content
 	soup = BeautifulSoup(src, 'lxml')
 
 	container = soup.find("div", {"class", "main-container"})
 
-	for li_tags in container.find_all('li'):
-		a_tag = li_tags.find('a')
-		paper_url = 'http://papers.nips.cc'+a_tag.attrs['href']
-		paper_url_list.append(paper_url)
+	for li in container.find_all('li'):
+		a = li.find('a')
+		paper = 'http://papers.nips.cc'+a.attrs['href']
+		paper_list.append(paper)
+	
+	#return paper_list
 
-	#return paper_url_list
-
-	json_list = data_to_json(paper_url_list)
-
+	json_list = data_to_json(paper_list)
 	#return json_list
 
-	#ran_str = ''.join(random.choices(string.ascii_uppercase + string.digits, k = 5))
-
 	file_name = soup.find("h2", {"class":"subtitle"}).text
-	#print(file_name)
-
 	path = 'json/'+f'{str(file_name)}.json'
-
 	with open(path, 'w') as fp:
-		json.dump(json_list, fp)
+		json.dump(json_list, fp, sort_keys=True, indent=4)
+
 
 
 
@@ -96,24 +83,24 @@ if __name__ == '__main__':
 	src = res.content
 	soup = BeautifulSoup(src, 'lxml')
 
-	year_urls = []
+	year_list = []
 
 	container = soup.find("div", {"class", "main-container"})
 
-	for li_tags in container.find_all('li'):
-		a_tag = li_tags.find('a')
-		year_urls.append('http://papers.nips.cc'+a_tag.attrs['href'])
+	for li in container.find_all('li'):
+		a = li.find('a')
+		year_list.append('http://papers.nips.cc'+a.attrs['href'])
 
-	#print(year_urls)
+	#print(year_list)
 
-	#for year_url in year_urls:
-	#	print(year_url)
+	#for year in year_list:
+	#	print(year)
 
-	year_urls = ['http://papers.nips.cc/book/neural-information-processing-systems-1987']
+	year_list = ['http://papers.nips.cc/book/neural-information-processing-systems-1987']
 
-	for year_url in year_urls:
+	for year in year_list:
 		#print(year_url)
-		x = paper_url(year_url)
+		x = papers(year)
 		print(x)
 
 
