@@ -1,33 +1,32 @@
 from bs4 import BeautifulSoup
 import requests
 import json
-import re
 
 
-def data_to_json(paper_list):
+def scrape(papers):
 
-	list_dic = []
+	list_data = []
 
 	papers_scraped = 0
 
-	for paper_url in paper_list:
+	for paper in papers:
 
-		res = requests.get(paper_url)
+		res = requests.get(paper)
 		src = res.content
 		soup = BeautifulSoup(src, 'lxml')
 		
 		title = soup.find('h2',{'class':'subtitle'}).text
 
 		authors = []
-		auths = soup.find("ul", {"class", "authors"})
-		for a in auths.find_all('a'):
+		auth = soup.find("ul", {"class", "authors"})
+		for a in auth.find_all('a'):
 			authors.append(a.text)
 		authors = ', '.join(authors)
 
-		summary = soup.find("p", {"class", "abstract"}).text.replace("$","")
+		abstract = soup.find("p", {"class", "abstract"}).text.replace("$","")
 
-		alla = soup.find_all('a')
-		for pdf_link in alla:
+		a = soup.find_all('a')
+		for pdf_link in a:
 			if "[PDF]" in pdf_link.text:
 				pdf = "http://papers.nips.cc"+pdf_link.attrs['href']
 		pdf_link = pdf
@@ -35,45 +34,45 @@ def data_to_json(paper_list):
 		dic = {
 			'title' : title,
 			'authors' : authors,
-			'summary' : summary,
-			'link' : pdf_link
+			'abstract' : abstract,
+			'pdf' : pdf_link
 		}
 
 		papers_scraped+=1
 
-		print("Papers scraped :", papers_scraped)
+		print("papers scraped :", papers_scraped)
 		
-		list_dic.append(dic)
+		list_data.append(dic)
 
-	return list_dic	
+	return list_data	
 
 
 
-def papers(year_link):
+def nips_papers(year):
 
-	paper_list = []
-
-	res = requests.get(year_link)
+	res = requests.get(year)
 	src = res.content
 	soup = BeautifulSoup(src, 'lxml')
+
+	papers = []
 
 	container = soup.find("div", {"class", "main-container"})
 
 	for li in container.find_all('li'):
 		a = li.find('a')
 		paper = 'http://papers.nips.cc'+a.attrs['href']
-		paper_list.append(paper)
+		papers.append(paper)
 	
-	#return paper_list
+	#return papers
 
-	json_list = data_to_json(paper_list)
-	#return json_list
+	scraped_data = scrape(papers)
+	#return scraped_data
 
 	file_name = soup.find("h2", {"class":"subtitle"}).text
-	path = 'json/'+f'{str(file_name)}.json'
-	with open(path, 'w') as fp:
-		json.dump(json_list, fp, sort_keys=True, indent=4)
+	path = 'papers/'+str(file_name)+'.json'
 
+	with open(path, 'w') as file:
+		json.dump(scraped_data, file, sort_keys=True, indent=4, ensure_ascii=False)
 
 
 
@@ -83,25 +82,20 @@ if __name__ == '__main__':
 	src = res.content
 	soup = BeautifulSoup(src, 'lxml')
 
-	year_list = []
+	years = []
 
 	container = soup.find("div", {"class", "main-container"})
 
 	for li in container.find_all('li'):
 		a = li.find('a')
-		year_list.append('http://papers.nips.cc'+a.attrs['href'])
+		years.append('http://papers.nips.cc'+a.attrs['href'])
 
-	#print(year_list)
+	#print(years)
 
-	#for year in year_list:
-	#	print(year)
+	years = ['http://papers.nips.cc/book/neural-information-processing-systems-1987']
 
-	year_list = ['http://papers.nips.cc/book/neural-information-processing-systems-1987']
-
-	for year in year_list:
-		#print(year_url)
-		x = papers(year)
-		print(x)
+	for year in years:
+		nips_papers(year)
 
 
 
