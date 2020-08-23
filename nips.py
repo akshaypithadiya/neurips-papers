@@ -69,6 +69,7 @@ def nips_papers(year):
 	#return scraped_data
 
 	file_name = soup.find("h2", {"class":"subtitle"}).text
+	file_name = file_name[-5:-1]
 	path = 'papers/'+str(file_name)+'.json'
 
 	with open(path, 'w') as file:
