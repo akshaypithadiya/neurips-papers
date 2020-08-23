@@ -4,6 +4,8 @@ Web scraping for papers published at the Neural Information Processing Systems (
 
 [papers.nips.cc](http://papers.nips.cc/)
 
+![nips](https://user-images.githubusercontent.com/18662067/90985024-a1c32f80-e596-11ea-8804-c3fcbfae2b2b.png)
+
 ## Requirements
 
 1. Download and install [Python 3.7+](https://www.python.org/downloads/)
