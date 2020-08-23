@@ -1,0 +1,950 @@
+[
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Geoffrey E. Hinton, Richard S. Zemel",
+        "pdf": "http://papers.nips.cc/paper/798-autoencoders-minimum-description-length-and-helmholtz-free-energy.pdf",
+        "title": "Autoencoders, Minimum Description Length and Helmholtz Free Energy"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Richard S. Zemel, Geoffrey E. Hinton",
+        "pdf": "http://papers.nips.cc/paper/845-developing-population-codes-by-minimizing-description-length.pdf",
+        "title": "Developing Population Codes by Minimizing Description Length"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Sreerupa Das, Michael C. Mozer",
+        "pdf": "http://papers.nips.cc/paper/846-a-unified-gradient-descentclustering-architecture-for-finite-state-machine-induction.pdf",
+        "title": "A Unified Gradient-Descent/Clustering Architecture for Finite State Machine Induction"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Eric Saund",
+        "pdf": "http://papers.nips.cc/paper/735-unsupervised-learning-of-mixtures-of-multiple-causes-in-binary-data.pdf",
+        "title": "Unsupervised Learning of Mixtures of Multiple Causes in Binary Data"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Asriel U. Levin, Todd K. Leen, John E. Moody",
+        "pdf": "http://papers.nips.cc/paper/754-fast-pruning-using-principal-components.pdf",
+        "title": "Fast Pruning Using Principal Components"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Christoph Bregler, Stephen M. Omohundro",
+        "pdf": "http://papers.nips.cc/paper/814-surface-learning-with-applications-to-lipreading.pdf",
+        "title": "Surface Learning with Applications to Lipreading"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Melanie Mitchell, John H. Holland, Stephanie Forrest",
+        "pdf": "http://papers.nips.cc/paper/836-when-will-a-genetic-algorithm-outperform-hill-climbing.pdf",
+        "title": "When will a Genetic Algorithm Outperform Hill Climbing"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Oded Maron, Andrew W. Moore",
+        "pdf": "http://papers.nips.cc/paper/841-hoeffding-races-accelerating-model-selection-search-for-classification-and-function-approximation.pdf",
+        "title": "Hoeffding Races: Accelerating Model Selection Search for Classification and Function Approximation"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Bill Baird, Todd Troyer, Frank Eeckman",
+        "pdf": "http://papers.nips.cc/paper/817-grammatical-inference-by-attentional-control-of-synchronization-in-an-oscillating-elman-network.pdf",
+        "title": "Grammatical Inference by Attentional Control of Synchronization in an Oscillating Elman Network"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Yoshua Bengio, Paolo Frasconi",
+        "pdf": "http://papers.nips.cc/paper/724-credit-assignment-through-time-alternatives-to-backpropagation.pdf",
+        "title": "Credit Assignment through Time: Alternatives to Backpropagation"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Javier R. Movellan",
+        "pdf": "http://papers.nips.cc/paper/746-a-local-algorithm-to-learn-trajectories-with-stochastic-neural-networks.pdf",
+        "title": "A Local Algorithm to Learn Trajectories with Stochastic Neural Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Gregory M. Saunders, Peter J. Angeline, Jordan B. Pollack",
+        "pdf": "http://papers.nips.cc/paper/722-structural-and-behavioral-evolution-of-recurrent-networks.pdf",
+        "title": "Structural and Behavioral Evolution of Recurrent Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Steven Gold, Eric Mjolsness, Anand Rangarajan",
+        "pdf": "http://papers.nips.cc/paper/838-clustering-with-a-domain-specific-distance-measure.pdf",
+        "title": "Clustering with a Domain-Specific Distance Measure"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Joachim Buhmann, Thomas Hofmann",
+        "pdf": "http://papers.nips.cc/paper/719-central-and-pairwise-data-clustering-by-competitive-neural-networks.pdf",
+        "title": "Central and Pairwise Data Clustering by Competitive Neural Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Virginia R. de Sa",
+        "pdf": "http://papers.nips.cc/paper/831-learning-classification-with-unlabeled-data.pdf",
+        "title": "Learning Classification with Unlabeled Data"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Zoubin Ghahramani, Michael I. Jordan",
+        "pdf": "http://papers.nips.cc/paper/767-supervised-learning-from-incomplete-data-via-an-em-approach.pdf",
+        "title": "Supervised learning from incomplete data via an EM approach"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Volker Tresp, Subutai Ahmad, Ralph Neuneier",
+        "pdf": "http://papers.nips.cc/paper/808-training-neural-networks-with-deficient-data.pdf",
+        "title": "Training Neural Networks with Deficient Data"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Mats Österberg, Reiner Lenz",
+        "pdf": "http://papers.nips.cc/paper/721-unsupervised-parallel-feature-extraction-from-first-principles.pdf",
+        "title": "Unsupervised Parallel Feature Extraction from First Principles"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Terence D. Sanger",
+        "pdf": "http://papers.nips.cc/paper/869-two-iterative-algorithms-for-computing-the-singular-value-decomposition-from-inputoutput-samples.pdf",
+        "title": "Two Iterative Algorithms for Computing the Singular Value Decomposition from Input/Output Samples"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Nanda Kambhatla, Todd K. Leen",
+        "pdf": "http://papers.nips.cc/paper/825-fast-non-linear-dimension-reduction.pdf",
+        "title": "Fast Non-Linear Dimension Reduction"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Stefan Schaal, Christopher G. Atkeson",
+        "pdf": "http://papers.nips.cc/paper/789-assessing-the-quality-of-learned-local-models.pdf",
+        "title": "Assessing the Quality of Learned Local Models"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Patrice Y. Simard",
+        "pdf": "http://papers.nips.cc/paper/875-efficient-computation-of-complex-distance-metrics-using-hierarchical-filtering.pdf",
+        "title": "Efficient Computation of Complex Distance Metrics Using Hierarchical Filtering"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Dana Ron, Yoram Singer, Naftali Tishby",
+        "pdf": "http://papers.nips.cc/paper/723-the-power-of-amnesia.pdf",
+        "title": "The Power of Amnesia"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Dietrich Wettschereck, Thomas G. Dietterich",
+        "pdf": "http://papers.nips.cc/paper/745-locally-adaptive-nearest-neighbor-algorithms.pdf",
+        "title": "Locally Adaptive Nearest Neighbor Algorithms"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Yong Liu",
+        "pdf": "http://papers.nips.cc/paper/796-robust-parameter-estimation-and-model-selection-for-neural-network-regression.pdf",
+        "title": "Robust Parameter Estimation and Model Selection for Neural Network Regression"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "David H. Wolpert",
+        "pdf": "http://papers.nips.cc/paper/728-bayesian-backpropagation-over-i-o-functions-rather-than-weights.pdf",
+        "title": "Bayesian Backpropagation Over I-O Functions Rather Than Weights"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Hans Henrik Thodberg",
+        "pdf": "http://papers.nips.cc/paper/720-bayesian-backprop-in-action-pruning-committees-error-bars-and-an-application-to-spectroscopy.pdf",
+        "title": "Bayesian Backprop in Action: Pruning, Committees, Error Bars and an Application to Spectroscopy"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Thomas G. Dietterich, Ajay N. Jain, Richard H. Lathrop, Tomás Lozano-Pérez",
+        "pdf": "http://papers.nips.cc/paper/781-a-comparison-of-dynamic-reposing-and-tangent-distance-for-drug-activity-prediction.pdf",
+        "title": "A Comparison of Dynamic Reposing and Tangent Distance for Drug Activity Prediction"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Iris Ginzburg, David Horn",
+        "pdf": "http://papers.nips.cc/paper/824-combined-neural-networks-for-time-series-analysis.pdf",
+        "title": "Combined Neural Networks for Time Series Analysis"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Patrice Y. Simard, Hans Peter Graf",
+        "pdf": "http://papers.nips.cc/paper/833-backpropagation-without-multiplication.pdf",
+        "title": "Backpropagation without Multiplication"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Richard T. J. Bostock, Alan J. Harget",
+        "pdf": "http://papers.nips.cc/paper/823-a-comparative-study-of-a-modified-bumptree-neural-network-with-radial-basis-function-networks-and-the-standard-multi-layer-perceptron.pdf",
+        "title": "A Comparative Study of a Modified Bumptree Neural Network with Radial Basis Function Networks and the Standard Multi Layer Perceptron"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Hossein L. Najafi, Vladimir Cherkassky",
+        "pdf": "http://papers.nips.cc/paper/818-adaptive-knot-placement-for-nonparametric-regression.pdf",
+        "title": "Adaptive knot Placement for Nonparametric Regression"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Bernd Fritzke",
+        "pdf": "http://papers.nips.cc/paper/791-supervised-learning-with-growing-cell-structures.pdf",
+        "title": "Supervised Learning with Growing Cell Structures"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Babak Hassibi, David G. Stork, Gregory Wolff",
+        "pdf": "http://papers.nips.cc/paper/749-optimal-brain-surgeon-extensions-and-performance-comparisons.pdf",
+        "title": "Optimal Brain Surgeon: Extensions and performance comparisons"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Ryotaro Kamimura",
+        "pdf": "http://papers.nips.cc/paper/873-generation-of-internal-representation-by-transformation.pdf",
+        "title": "Generation of Internal Representation by α-Transformation"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Laurens R. Leerink, Marwan A. Jabri",
+        "pdf": "http://papers.nips.cc/paper/802-constructive-learning-using-internal-representation-conflicts.pdf",
+        "title": "Constructive Learning Using Internal Representation Conflicts"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Joachim Utans",
+        "pdf": "http://papers.nips.cc/paper/840-learning-in-compositional-hierarchies-inducing-the-structure-of-objects-from-data.pdf",
+        "title": "Learning in Compositional Hierarchies: Inducing the Structure of Objects from Data"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Sumio Watanabe",
+        "pdf": "http://papers.nips.cc/paper/747-an-optimization-method-of-layered-neural-networks-based-on-the-modified-information-criterion.pdf",
+        "title": "An Optimization Method of Layered Neural Networks based on the Modified Information Criterion"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Changfeng Wang, Santosh S. Venkatesh, J. Stephen Judd",
+        "pdf": "http://papers.nips.cc/paper/816-optimal-stopping-and-effective-machine-complexity-in-learning.pdf",
+        "title": "Optimal Stopping and Effective Machine Complexity in Learning"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Wolfgang Maass",
+        "pdf": "http://papers.nips.cc/paper/837-agnostic-pac-learning-of-functions-on-analog-neural-nets.pdf",
+        "title": "Agnostic PAC-Learning of Functions on Analog Neural Nets"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "H. N. Mhaskar, C. A.. Micchelli",
+        "pdf": "http://papers.nips.cc/paper/874-how-to-choose-an-activation-function.pdf",
+        "title": "How to Choose an Activation Function"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Corinna Cortes, L. D. Jackel, Sara A. Solla, Vladimir Vapnik, John S. Denker",
+        "pdf": "http://papers.nips.cc/paper/803-learning-curves-asymptotic-values-and-rate-of-convergence.pdf",
+        "title": "Learning Curves: Asymptotic Values and Rate of Convergence"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Charles Fefferman, Scott Markel",
+        "pdf": "http://papers.nips.cc/paper/748-recovering-a-feed-forward-net-from-its-output.pdf",
+        "title": "Recovering a Feed-Forward Net From Its Output"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Tal Grossman, Alan Lapedes",
+        "pdf": "http://papers.nips.cc/paper/801-use-of-bad-training-data-for-better-predictions.pdf",
+        "title": "Use of Bad Training Data for Better Predictions"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Babak Hassibi, Ali H. Sayed, Thomas Kailath",
+        "pdf": "http://papers.nips.cc/paper/815-hoo-optimality-criteria-for-lms-and-backpropagation.pdf",
+        "title": "Hoo Optimality Criteria for LMS and Backpropagation"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Bill G. Horne, Don R. Hush",
+        "pdf": "http://papers.nips.cc/paper/822-bounds-on-the-complexity-of-recurrent-neural-network-implementations-of-finite-state-machines.pdf",
+        "title": "Bounds on the complexity of recurrent neural network implementations of finite state machines"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Chuanyi Ji",
+        "pdf": "http://papers.nips.cc/paper/811-generalization-error-and-the-expected-network-complexity.pdf",
+        "title": "Generalization Error and the Expected Network Complexity"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Adam Kowalczyk",
+        "pdf": "http://papers.nips.cc/paper/739-counting-function-theorem-for-multi-layer-networks.pdf",
+        "title": "Counting function theorem for multi-layer networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "O. L. Mangasarian, M. V. Solodov",
+        "pdf": "http://papers.nips.cc/paper/821-backpropagation-convergence-via-deterministic-nonmonotone-perturbed-minimization.pdf",
+        "title": "Backpropagation Convergence Via Deterministic Nonmonotone Perturbed Minimization"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Mark Plutowski, Shinichi Sakata, Halbert White",
+        "pdf": "http://papers.nips.cc/paper/762-cross-validation-estimates-imse.pdf",
+        "title": "Cross-Validation Estimates IMSE"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "H. Schwarze, J. Hertz",
+        "pdf": "http://papers.nips.cc/paper/839-discontinuous-generalization-in-large-committee-machines.pdf",
+        "title": "Discontinuous Generalization in Large Committee Machines"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Jonathan L. Shapiro, Adam Prügel-Bennett",
+        "pdf": "http://papers.nips.cc/paper/862-non-linear-statistical-analysis-and-self-organizing-hebbian-networks.pdf",
+        "title": "Non-Linear Statistical Analysis and Self-Organizing Hebbian Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Grace Wahba, Yuedong Wang, Chong Gu, Ronald Klein, MD, Barbara Klein, MD",
+        "pdf": "http://papers.nips.cc/paper/849-structured-machine-learning-for-soft-classification-with-smoothing-spline-anova-and-stacked-tuning-testing-and-evaluation.pdf",
+        "title": "Structured Machine Learning for 'Soft' Classification with Smoothing Spline ANOVA and Stacked Tuning, Testing and Evaluation"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Sumio Watanabe",
+        "pdf": "http://papers.nips.cc/paper/786-solvable-models-of-artificial-neural-networks.pdf",
+        "title": "Solvable Models of Artificial Neural Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Herbert Wiklicky",
+        "pdf": "http://papers.nips.cc/paper/726-on-the-non-existence-of-a-universal-learning-algorithm-for-recurrent-neural-networks.pdf",
+        "title": "On the Non-Existence of a Universal Learning Algorithm for Recurrent Neural Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Scott Kirkpatrick, Géza Györgyi, Naftali Tishby, Lidror Troyansky",
+        "pdf": "http://papers.nips.cc/paper/737-the-statistical-mechanics-of-k-satisfaction.pdf",
+        "title": "The Statistical Mechanics of k-Satisfaction"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "A.C.C. Coolen, R. W. Penney, D. Sherrington",
+        "pdf": "http://papers.nips.cc/paper/775-coupled-dynamics-of-fast-neurons-and-slow-interactions.pdf",
+        "title": "Coupled Dynamics of Fast Neurons and Slow Interactions"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Max Garzon, Fernanda Botelho",
+        "pdf": "http://papers.nips.cc/paper/806-observability-of-neural-network-behavior.pdf",
+        "title": "Observability of Neural Network Behavior"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Wulfram Gerstner, J. Leo van Hemmen",
+        "pdf": "http://papers.nips.cc/paper/850-how-to-describe-neuronal-activity-spikes-rates-or-assemblies.pdf",
+        "title": "How to Describe Neuronal Activity: Spikes, Rates, or Assemblies?"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Iris Ginzburg, Haim Sompolinsky",
+        "pdf": "http://papers.nips.cc/paper/854-correlation-functions-in-a-large-stochastic-neural-network.pdf",
+        "title": "Correlation Functions in a Large Stochastic Neural Network"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Todd K. Leen, Genevieve B. Orr",
+        "pdf": "http://papers.nips.cc/paper/772-optimal-stochastic-search-and-adaptive-momentum.pdf",
+        "title": "Optimal Stochastic Search and Adaptive Momentum"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Isaac Meilijson, Eytan Ruppin",
+        "pdf": "http://papers.nips.cc/paper/730-optimal-signalling-in-attractor-neural-networks.pdf",
+        "title": "Optimal Signalling in Attractor Neural Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Xin Wang, Qingnan Li, Edward K. Blum",
+        "pdf": "http://papers.nips.cc/paper/804-asynchronous-dynamics-of-continuous-time-neural-networks.pdf",
+        "title": "Asynchronous Dynamics of Continuous Time Neural Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "John F. Kolen",
+        "pdf": "http://papers.nips.cc/paper/757-fools-gold-extracting-finite-state-machines-from-recurrent-network-dynamics.pdf",
+        "title": "Fool's Gold: Extracting Finite State Machines from Recurrent Network Dynamics"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Eve Marder",
+        "pdf": "http://papers.nips.cc/paper/780-dynamic-modulation-of-neurons-and-networks.pdf",
+        "title": "Dynamic Modulation of Neurons and Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Öjvind Bernander, Christof Koch, Rodney J. Douglas",
+        "pdf": "http://papers.nips.cc/paper/717-amplifying-and-linearizing-apical-synaptic-inputs-to-cortical-pyramidal-cells.pdf",
+        "title": "Amplifying and Linearizing Apical Synaptic Inputs to Cortical Pyramidal Cells"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Christiane Linster, David Marsan, Claudine Masson, Michel Kerszberg",
+        "pdf": "http://papers.nips.cc/paper/766-odor-processing-in-the-bee-a-preliminary-study-of-the-role-of-central-input-to-the-antennal-lobe.pdf",
+        "title": "Odor Processing in the Bee: A Preliminary Study of the Role of Central Input to the Antennal Lobe"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Mitchell Gil Maltenfort, Robert E. Druzinsky, C. J. Heckman, W. Zev Rymer",
+        "pdf": "http://papers.nips.cc/paper/756-lower-boundaries-of-motoneuron-desynchronization-via-renshaw-interneurons.pdf",
+        "title": "Lower Boundaries of Motoneuron Desynchronization via Renshaw Interneurons"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Klaus Obermayer, Lynne Kiorpes, Gary G. Blasdel",
+        "pdf": "http://papers.nips.cc/paper/868-development-of-orientation-and-ocular-dominance-columns-in-infant-macaques.pdf",
+        "title": "Development of Orientation and Ocular Dominance Columns in Infant Macaques"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Daniel L. Ruderman, William Bialek",
+        "pdf": "http://papers.nips.cc/paper/835-statistics-of-natural-images-scaling-in-the-woods.pdf",
+        "title": "Statistics of Natural Images: Scaling in the Woods"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Eric Boussard, Jean-François Vibert",
+        "pdf": "http://papers.nips.cc/paper/768-dopaminergic-neuromodulation-brings-a-dynamical-plasticity-to-the-retina.pdf",
+        "title": "Dopaminergic Neuromodulation Brings a Dynamical Plasticity to the Retina"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Kenji Doya, Allen I. Selverston, Peter F. Rowat",
+        "pdf": "http://papers.nips.cc/paper/783-a-hodgkin-huxley-type-neuron-model-that-learns-slow-non-spike-oscillation.pdf",
+        "title": "A Hodgkin-Huxley Type Neuron Model That Learns Slow Non-Spike Oscillation"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Audrey L. Guzik, Robert C. Eaton",
+        "pdf": "http://papers.nips.cc/paper/793-directional-hearing-by-the-mauthner-system.pdf",
+        "title": "Directional Hearing by the Mauthner System"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Timothy K. Horiuchi, Brooks Bishofberger, Christof Koch",
+        "pdf": "http://papers.nips.cc/paper/776-an-analog-vlsi-saccadic-eye-movement-system.pdf",
+        "title": "An Analog VLSI Saccadic Eye Movement System"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Michael S. Lewicki",
+        "pdf": "http://papers.nips.cc/paper/777-bayesian-modeling-and-classification-of-neural-signals.pdf",
+        "title": "Bayesian Modeling and Classification of Neural Signals"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "P. Read Montague, Peter Dayan, Terrence J. Sejnowski",
+        "pdf": "http://papers.nips.cc/paper/800-foraging-in-an-uncertain-environment-using-predictive-hebbian-learning.pdf",
+        "title": "Foraging in an Uncertain Environment Using Predictive Hebbian Learning"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Daniel J. Rosen, David E. Rumelhart, Eric I. Knudsen",
+        "pdf": "http://papers.nips.cc/paper/790-a-connectionist-model-of-the-owls-sound-localization-system.pdf",
+        "title": "A Connectionist Model of the Owl's Sound Localization System"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Terence D. Sanger",
+        "pdf": "http://papers.nips.cc/paper/782-optimal-unsupervised-motor-learning-predicts-the-internal-representation-of-barn-owl-head-movements.pdf",
+        "title": "Optimal Unsupervised Motor Learning Predicts the Internal Representation of Barn Owl Head Movements"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Micah S. Siegel",
+        "pdf": "http://papers.nips.cc/paper/743-an-analog-vlsi-model-of-central-pattern-generation-in-the-leech.pdf",
+        "title": "An Analog VLSI Model of Central Pattern Generation in the Leech"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Martin Stemmler, Marius Usher, Christof Koch, Zeev Olami",
+        "pdf": "http://papers.nips.cc/paper/736-synchronization-oscillations-and-1f-noise-in-networks-of-spiking-neurons.pdf",
+        "title": "Synchronization, oscillations, and 1/f noise in networks of spiking neurons"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Kenneth M. Buckland, Peter D. Lawrence",
+        "pdf": "http://papers.nips.cc/paper/848-transition-point-dynamic-programming.pdf",
+        "title": "Transition Point Dynamic Programming"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Gary W. Flake, Guo-Zhen Sun, Yee-Chun Lee",
+        "pdf": "http://papers.nips.cc/paper/872-exploiting-chaos-to-control-the-future.pdf",
+        "title": "Exploiting Chaos to Control the Future"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Satinder P. Singh, Andrew G. Barto, Roderic Grupen, Christopher Connolly",
+        "pdf": "http://papers.nips.cc/paper/843-robust-reinforcement-learning-in-motion-planning.pdf",
+        "title": "Robust Reinforcement Learning in Motion Planning"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Christopher G. Atkeson",
+        "pdf": "http://papers.nips.cc/paper/788-using-local-trajectory-optimizers-to-speed-up-global-optimization-in-dynamic-programming.pdf",
+        "title": "Using Local Trajectory Optimizers to Speed Up Global Optimization in Dynamic Programming"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Justin A. Boyan, Michael L. Littman",
+        "pdf": "http://papers.nips.cc/paper/770-packet-routing-in-dynamically-changing-networks-a-reinforcement-learning-approach.pdf",
+        "title": "Packet Routing in Dynamically Changing Networks: A Reinforcement Learning Approach"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "David A. Cohn",
+        "pdf": "http://papers.nips.cc/paper/765-neural-network-exploration-using-optimal-experiment-design.pdf",
+        "title": "Neural Network Exploration Using Optimal Experiment Design"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Andrew Barto, Michael Duff",
+        "pdf": "http://papers.nips.cc/paper/865-monte-carlo-matrix-inversion-and-reinforcement-learning.pdf",
+        "title": "Monte Carlo Matrix Inversion and Reinforcement Learning"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Vijaykumar Gullapalli, Andrew G. Barto",
+        "pdf": "http://papers.nips.cc/paper/773-convergence-of-indirect-adaptive-asynchronous-value-iteration-algorithms.pdf",
+        "title": "Convergence of Indirect Adaptive Asynchronous Value Iteration Algorithms"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Tommi Jaakkola, Michael I. Jordan, Satinder P. Singh",
+        "pdf": "http://papers.nips.cc/paper/764-convergence-of-stochastic-iterative-dynamic-programming-algorithms.pdf",
+        "title": "Convergence of Stochastic Iterative Dynamic Programming Algorithms"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Andrew W. Moore",
+        "pdf": "http://papers.nips.cc/paper/742-the-parti-game-algorithm-for-variable-resolution-reinforcement-learning-in-multidimensional-state-spaces.pdf",
+        "title": "The Parti-Game Algorithm for Variable Resolution Reinforcement Learning in Multidimensional State-Spaces"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Timothy W. Cacciatore, Steven J. Nowlan",
+        "pdf": "http://papers.nips.cc/paper/750-mixtures-of-controllers-for-jump-linear-and-non-linear-plants.pdf",
+        "title": "Mixtures of Controllers for Jump Linear and Non-Linear Plants"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Yasuhiro Wada, Yasuharu Koike, Eric Vatikiotis-Bateson, Mitsuo Kawato",
+        "pdf": "http://papers.nips.cc/paper/830-a-computational-model-for-cursive-handwriting-based-on-the-minimization-principle.pdf",
+        "title": "A Computational Model for Cursive Handwriting Based on the Minimization Principle"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Jane Bromley, Isabelle Guyon, Yann LeCun, Eduard Säckinger, Roopak Shah",
+        "pdf": "http://papers.nips.cc/paper/769-signature-verification-using-a-siamese-time-delay-neural-network.pdf",
+        "title": "Signature Verification using a \"Siamese\" Time Delay Neural Network"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Ralph Wolf, John C. Platt",
+        "pdf": "http://papers.nips.cc/paper/856-postal-address-block-location-using-a-convolutional-locator-network.pdf",
+        "title": "Postal Address Block Location Using a Convolutional Locator Network"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Shumeet Baluja, Dean Pomerleau",
+        "pdf": "http://papers.nips.cc/paper/863-non-intrusive-gaze-tracking-using-artificial-neural-networks.pdf",
+        "title": "Non-Intrusive Gaze Tracking Using Artificial Neural Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Pierre Baldi, Søren Brunak, Yves Chauvin, Jacob Engelbrecht, Anders Krogh",
+        "pdf": "http://papers.nips.cc/paper/761-hidden-markov-models-for-human-genes.pdf",
+        "title": "Hidden Markov Models for Human Genes"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Joachim M. Buhmann, Martin Lades, Frank Eeckman",
+        "pdf": "http://papers.nips.cc/paper/876-illumination-invariant-face-recognition-with-a-contrast-sensitive-silicon-retina.pdf",
+        "title": "Illumination-Invariant Face Recognition with a Contrast Sensitive Silicon Retina"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Nicholas S. Flann",
+        "pdf": "http://papers.nips.cc/paper/794-recognition-based-segmentation-of-on-line-cursive-handwriting.pdf",
+        "title": "Recognition-based Segmentation of On-Line Cursive Handwriting"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Hans Peter Graf, Eric Cosatto",
+        "pdf": "http://papers.nips.cc/paper/779-address-block-location-with-a-neural-net-system.pdf",
+        "title": "Address Block Location with a Neural Net System"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "N. Karunanithi",
+        "pdf": "http://papers.nips.cc/paper/741-identifying-fault-prone-software-modules-using-feed-forward-networks-a-case-study.pdf",
+        "title": "Identifying Fault-Prone Software Modules Using Feed-Forward Networks: A Case Study"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Didier Keymeulen, Martine de Gerlache",
+        "pdf": "http://papers.nips.cc/paper/871-comparison-training-for-a-rescheduling-problem-in-neural-networks.pdf",
+        "title": "Comparison Training for a Rescheduling Problem in Neural Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Alan Lapedes, Evan Steeg, Robert Farber",
+        "pdf": "http://papers.nips.cc/paper/758-neural-network-definitions-of-highly-predictable-protein-secondary-structure-classes.pdf",
+        "title": "Neural Network Definitions of Highly Predictable Protein Secondary Structure Classes"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Nicol N. Schraudolph, Peter Dayan, Terrence J. Sejnowski",
+        "pdf": "http://papers.nips.cc/paper/820-temporal-difference-learning-of-position-evaluation-in-the-game-of-go.pdf",
+        "title": "Temporal Difference Learning of Position Evaluation in the Game of Go"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Padhraic Smyth",
+        "pdf": "http://papers.nips.cc/paper/805-probabilistic-anomaly-detection-in-dynamic-systems.pdf",
+        "title": "Probabilistic Anomaly Detection in Dynamic Systems"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Yoram Singer, Naftali Tishby",
+        "pdf": "http://papers.nips.cc/paper/826-decoding-cursive-scripts.pdf",
+        "title": "Decoding Cursive Scripts"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Michael A. Glover, W. Thomas Miller III",
+        "pdf": "http://papers.nips.cc/paper/718-a-massively-parallel-simd-processor-for-neural-network-and-machine-vision-applications.pdf",
+        "title": "A Massively-Parallel SIMD Processor for Neural Network and Machine Vision Applications"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Steven S. Watkins, Paul M. Chau, Raoul Tawel, Bjorn Lambrigtsen, Mark Plutowski",
+        "pdf": "http://papers.nips.cc/paper/810-a-hybrid-radial-basis-function-neurocomputer-and-its-applications.pdf",
+        "title": "A Hybrid Radial Basis Function Neurocomputer and Its Applications"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Gert Cauwenberghs",
+        "pdf": "http://papers.nips.cc/paper/778-a-learning-analog-neural-network-chip-with-continuous-time-recurrent-dynamics.pdf",
+        "title": "A Learning Analog Neural Network Chip with Continuous-Time Recurrent Dynamics"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Andreas G. Andreou, Thomas G. Edwards",
+        "pdf": "http://papers.nips.cc/paper/727-vlsi-phase-locking-architectures-for-feature-linking-in-multiple-target-tracking-systems.pdf",
+        "title": "VLSI Phase Locking Architectures for Feature Linking in Multiple Target Tracking Systems"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Richard Coggins, Marwan Jabri",
+        "pdf": "http://papers.nips.cc/paper/755-wattle-a-trainable-gain-analogue-vlsi-neural-network.pdf",
+        "title": "WATTLE: A Trainable Gain Analogue VLSI Neural Network"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "I. M. Elfadel, J. L. Wyatt, Jr.",
+        "pdf": "http://papers.nips.cc/paper/877-the-softmax-nonlinearity-derivation-using-statistical-mechanics-and-useful-properties-as-a-multiterminal-analog-circuit-element.pdf",
+        "title": "The \"Softmax\" Nonlinearity: Derivation Using Statistical Mechanics and Useful Properties as a Multiterminal Analog Circuit Element"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Urs A. Müller, Michael Kocheisen, Anton Gunzinger",
+        "pdf": "http://papers.nips.cc/paper/731-high-performance-neural-net-simulation-on-a-multiprocessor-system-with-intelligent-communication.pdf",
+        "title": "High Performance Neural Net Simulation on a Multiprocessor System with \"Intelligent\" Communication"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Michael Murray, Ming-Tak Leung, Kan Boonyanit, Kong Kritayakirana, James B. Burg, Gregory J. Wolff, Tokahiro Watanabe, Edward Schwartz, David G. Stork, Allen M. Peterson",
+        "pdf": "http://papers.nips.cc/paper/864-digital-boltzmann-vlsi-for-constraint-satisfaction-and-learning.pdf",
+        "title": "Digital Boltzmann VLSI for constraint satisfaction and learning"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Ernst Niebur, Dean Brettle",
+        "pdf": "http://papers.nips.cc/paper/729-efficient-simulation-of-biological-neural-networks-on-massively-parallel-supercomputers-with-hypercube-architecture.pdf",
+        "title": "Efficient Simulation of Biological Neural Networks on Massively Parallel Supercomputers with Hypercube Architecture"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Arlindo L. Oliveira, Alberto Sangiovanni-Vincentelli",
+        "pdf": "http://papers.nips.cc/paper/857-learning-complex-boolean-functions-algorithms-and-applications.pdf",
+        "title": "Learning Complex Boolean Functions: Algorithms and Applications"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Tadashi Shibata, Koji Kotani, Takeo Yamashita, Hiroshi Ishii, Hideo Kosaka, Tadahiro Ohmi",
+        "pdf": "http://papers.nips.cc/paper/725-implementing-intelligence-on-silicon-using-neuron-like-functional-mos-transistors.pdf",
+        "title": "Implementing Intelligence on Silicon Using Neuron-Like Functional MOS Transistors"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Lloyd Watts",
+        "pdf": "http://papers.nips.cc/paper/834-event-driven-simulation-of-networks-of-spiking-neurons.pdf",
+        "title": "Event-Driven Simulation of Networks of Spiking Neurons"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Yoshua Bengio, Yann LeCun, Donnie Henderson",
+        "pdf": "http://papers.nips.cc/paper/819-globally-trained-handwritten-word-recognizer-using-spatial-representation-convolutional-neural-networks-and-hidden-markov-models.pdf",
+        "title": "Globally Trained Handwritten Word Recognizer using Spatial Representation, Convolutional Neural Networks, and Hidden Markov Models"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Trevor J. Darrell, Alex P. Pentland",
+        "pdf": "http://papers.nips.cc/paper/832-classifying-hand-gestures-with-a-view-based-distributed-representation.pdf",
+        "title": "Classifying Hand Gestures with a View-Based Distributed Representation"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Kô Sakai, Leif H. Finkel",
+        "pdf": "http://papers.nips.cc/paper/842-a-network-mechanism-for-the-determination-of-shape-from-texture.pdf",
+        "title": "A Network Mechanism for the Determination of Shape-From-Texture"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Subutai Ahmad",
+        "pdf": "http://papers.nips.cc/paper/738-feature-densities-are-required-for-computing-feature-correspondences.pdf",
+        "title": "Feature Densities are Required for Computing Feature Correspondences"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "G. T. Buracas, T. D. Albright",
+        "pdf": "http://papers.nips.cc/paper/867-the-role-of-mt-neuron-receptive-field-surrounds-in-computing-object-shape-from-velocity-fields.pdf",
+        "title": "The Role of MT Neuron Receptive Field Surrounds in Computing Object Shape from Velocity Fields"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "K. I. Diamantaras, D. Geiger",
+        "pdf": "http://papers.nips.cc/paper/771-resolving-motion-ambiguities.pdf",
+        "title": "Resolving motion ambiguities"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Chien-Ping Lu, Eric Mjolsness",
+        "pdf": "http://papers.nips.cc/paper/866-two-dimensional-object-localization-by-coarse-to-fine-correlation-matching.pdf",
+        "title": "Two-Dimensional Object Localization by Coarse-to-Fine Correlation Matching"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Paul Sajda, Leif H. Finkel",
+        "pdf": "http://papers.nips.cc/paper/752-dual-mechanisms-for-neural-binding-and-segmentation.pdf",
+        "title": "Dual Mechanisms for Neural Binding and Segmentation"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Alan L. Yuille, Stelios M. Smirnakis, Lei Xu",
+        "pdf": "http://papers.nips.cc/paper/809-bayesian-self-organization.pdf",
+        "title": "Bayesian Self-Organization"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Jose C. Principe, Hui-H. Hsu, Jyh-Ming Kuo",
+        "pdf": "http://papers.nips.cc/paper/795-analysis-of-short-term-memories-for-neural-networks.pdf",
+        "title": "Analysis of Short Term Memories for Neural Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Eric I. Chang, Richard P. Lippmann",
+        "pdf": "http://papers.nips.cc/paper/792-figure-of-merit-training-for-detection-and-spotting.pdf",
+        "title": "Figure of Merit Training for Detection and Spotting"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Gregory J. Wolff, K. Venkatesh Prasad, David G. Stork, Marcus Hennecke",
+        "pdf": "http://papers.nips.cc/paper/858-lipreading-by-neural-networks-visual-preprocessing-learning-and-sensory-integration.pdf",
+        "title": "Lipreading by neural networks: Visual preprocessing, learning, and sensory integration"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Kevin R. Farrell, Richard J. Mammone",
+        "pdf": "http://papers.nips.cc/paper/861-speaker-recognition-using-neural-tree-networks.pdf",
+        "title": "Speaker Recognition Using Neural Tree Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Makoto Hirayama, Eric Vatikiotis-Bateson, Mitsuo Kawato",
+        "pdf": "http://papers.nips.cc/paper/751-inverse-dynamics-of-speech-motor-control.pdf",
+        "title": "Inverse Dynamics of Speech Motor Control"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Steve Renals, Mike Hochberg, Tony Robinson",
+        "pdf": "http://papers.nips.cc/paper/851-learning-temporal-dependencies-in-connectionist-speech-recognition.pdf",
+        "title": "Learning Temporal Dependencies in Connectionist Speech Recognition"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Ying Zhao, Richard Schwartz, John Makhoul, George Zavaliagkos",
+        "pdf": "http://papers.nips.cc/paper/763-segmental-neural-net-optimization-for-continuous-speech-recognition.pdf",
+        "title": "Segmental Neural Net Optimization for Continuous Speech Recognition"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Richard O. Duda",
+        "pdf": "http://papers.nips.cc/paper/827-connectionist-models-for-auditory-scene-analysis.pdf",
+        "title": "Connectionist Models for Auditory Scene Analysis"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Reza Shadmehr, Ferdinando A. Mussa-Ivaldi",
+        "pdf": "http://papers.nips.cc/paper/787-computational-elements-of-the-adaptive-controller-of-the-human-arm.pdf",
+        "title": "Computational Elements of the Adaptive Controller of the Human Arm"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Catherine Stevens, Janet Wiles",
+        "pdf": "http://papers.nips.cc/paper/759-tonal-music-as-a-componential-code-learning-temporal-relationships-between-and-within-pitch-and-timing-components.pdf",
+        "title": "Tonal Music as a Componential Code: Learning Temporal Relationships Between and Within Pitch and Timing Components"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Reinhard Blasig",
+        "pdf": "http://papers.nips.cc/paper/774-gds-gradient-descent-generation-of-symbolic-classification-rules.pdf",
+        "title": "GDS: Gradient Descent Generation of Symbolic Classification Rules"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Thea B. Ghiselli-Crippa, Paul W. Munro",
+        "pdf": "http://papers.nips.cc/paper/852-emergence-of-global-structure-from-local-associations.pdf",
+        "title": "Emergence of Global Structure from Local Associations"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Tony A. Plate",
+        "pdf": "http://papers.nips.cc/paper/740-estimating-analogical-similarity-by-dot-products-of-holographic-reduced-representations.pdf",
+        "title": "Estimating analogical similarity by dot-products of Holographic Reduced Representations"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Thomas R. Shultz, Jeffrey L. Elman",
+        "pdf": "http://papers.nips.cc/paper/812-analyzing-cross-connected-networks.pdf",
+        "title": "Analyzing Cross-Connected Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Alessandro Sperduti",
+        "pdf": "http://papers.nips.cc/paper/860-encoding-labeled-graphs-by-labeling-raam.pdf",
+        "title": "Encoding Labeled Graphs by Labeling RAAM"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Mark Plutowski, Garrison Cottrell, Halbert White",
+        "pdf": "http://papers.nips.cc/paper/784-learning-mackey-glass-from-25-examples-plus-or-minus-2.pdf",
+        "title": "Learning Mackey-Glass from 25 examples, Plus or Minus 2"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Yehuda Salu",
+        "pdf": "http://papers.nips.cc/paper/853-classification-of-multi-spectral-pixels-by-the-binary-diamond-neural-network.pdf",
+        "title": "Classification of Multi-Spectral Pixels by the Binary Diamond Neural Network"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "A C Tsoi, D S C So, A Sergejew",
+        "pdf": "http://papers.nips.cc/paper/855-classification-of-electroencephalogram-using-artificial-neural-networks.pdf",
+        "title": "Classification of Electroencephalogram using Artificial Neural Networks"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "V. P. Roychowdhury, K.-Y. Siu",
+        "pdf": "http://papers.nips.cc/paper/844-complexity-issues-in-neural-computation-and-learning.pdf",
+        "title": "Complexity Issues in Neural Computation and Learning"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Andreas S. Weigend",
+        "pdf": "http://papers.nips.cc/paper/859-connectionism-for-music-and-audition.pdf",
+        "title": "Connectionism for Music and Audition"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Thomas G. Dietterich, Dietrich Wettschereck, Chris G. Atkeson, Andrew W. Moore",
+        "pdf": "http://papers.nips.cc/paper/807-memory-based-methods-for-regression-and-classification.pdf",
+        "title": "Memory-Based Methods for Regression and Classification"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Ernst Niebur, Bruno A. Olshausen",
+        "pdf": "http://papers.nips.cc/paper/829-neurobiology-psychophysics-and-computational-models-of-visual-attention.pdf",
+        "title": "Neurobiology, Psychophysics, and Computational Models of Visual Attention"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "David A. Cohn",
+        "pdf": "http://papers.nips.cc/paper/870-robot-learning-exploration-and-continuous-domains.pdf",
+        "title": "Robot Learning: Exploration and Continuous Domains"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Max H. Garzon, Fernanda Botelho",
+        "pdf": "http://papers.nips.cc/paper/734-stability-and-observability.pdf",
+        "title": "Stability and Observability"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Mark A. Gluck",
+        "pdf": "http://papers.nips.cc/paper/733-what-does-the-hippocampus-compute-a-precis-of-the-1993-nips-workshop.pdf",
+        "title": "What Does the Hippocampus Compute?: A Precis of the 1993 NIPS Workshop"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Robert M. French",
+        "pdf": "http://papers.nips.cc/paper/799-catastrophic-interference-in-connectionist-networks-can-it-be-predicted-can-it-be-prevented.pdf",
+        "title": "Catastrophic interference in connectionist networks: Can It Be predicted, can It be prevented?"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Joachim Diederich, Ah Chung Tsoi",
+        "pdf": "http://papers.nips.cc/paper/828-connectionist-modeling-and-parallel-architectures.pdf",
+        "title": "Connectionist Modeling and Parallel Architectures"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Thomas H. Hildebrandt",
+        "pdf": "http://papers.nips.cc/paper/813-functional-models-of-selective-attention-and-context-dependency.pdf",
+        "title": "Functional Models of Selective Attention and Context Dependency"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Hayit Greenspan",
+        "pdf": "http://papers.nips.cc/paper/797-learning-in-computer-vision-and-image-understanding.pdf",
+        "title": "Learning in Computer Vision and Image Understanding"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Arun Jagota",
+        "pdf": "http://papers.nips.cc/paper/753-neural-network-methods-for-optimization-problems.pdf",
+        "title": "Neural Network Methods for Optimization Problems"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Josef P. Rauschecker, Terrence J. Sejnowski",
+        "pdf": "http://papers.nips.cc/paper/760-processing-of-visual-and-auditory-space-and-its-modification-by-experience.pdf",
+        "title": "Processing of Visual and Auditory Space and Its Modification by Experience"
+    },
+    {
+        "abstract": "Abstract Missing",
+        "authors": "Michael P. Perrone",
+        "pdf": "http://papers.nips.cc/paper/744-putting-it-all-together-methods-for-combining-neural-networks.pdf",
+        "title": "Putting It All Together: Methods for Combining Neural Networks"
+    }
+]
