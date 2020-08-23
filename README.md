@@ -1,4 +1,4 @@
-# NeurIPS papers web scraping
+# NeurIPS papers
 
 Web scraping for papers published at the Neural Information Processing Systems (NIPS) Conference
 
