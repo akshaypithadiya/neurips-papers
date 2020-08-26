@@ -14,10 +14,7 @@ Web scraping for papers published at the Neural Information Processing Systems (
 ```
 python3 -m venv nips-papers
 source nips-papers/bin/activate
-
-pip install beautifulsoup4
-pip install lxml
-pip install requests
+pip install -r requirements.txt
 ```
 ## Running
 
