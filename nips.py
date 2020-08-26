@@ -1,3 +1,4 @@
+from multiprocessing import Process
 from bs4 import BeautifulSoup
 import requests
 import json
@@ -39,8 +40,7 @@ def scrape(papers):
 		}
 
 		papers_scraped+=1
-
-		print("papers scraped :", papers_scraped)
+		print(f"papers scraped : {papers_scraped}")
 		
 		list_data.append(dic)
 
@@ -75,9 +75,12 @@ def nips_papers(year):
 	with open(path, 'w') as file:
 		json.dump(scraped_data, file, sort_keys=True, indent=4, ensure_ascii=False)
 
+	print(f'file {file_name}.json saved to /papers')
 
 
 if __name__ == '__main__':
+
+	processes = []
 
 	res = requests.get('http://papers.nips.cc/')
 	src = res.content
@@ -90,13 +93,12 @@ if __name__ == '__main__':
 	for li in container.find_all('li'):
 		a = li.find('a')
 		years.append('http://papers.nips.cc'+a.attrs['href'])
-
 	#print(years)
-
-	years = ['http://papers.nips.cc/book/neural-information-processing-systems-1987']
-
+	
 	for year in years:
-		nips_papers(year)
-
+		process = Process(target=nips_papers, args=(year,))
+		processes.append(process)
+		process.start()
+	print(f"{len(processes)} processes are running in parallel\n")
 
 
