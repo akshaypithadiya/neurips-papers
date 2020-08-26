@@ -8,17 +8,20 @@ Web scraping for papers published at the Neural Information Processing Systems (
 
 ## Requirements
 
-1. Download and install [Python 3.7+](https://www.python.org/downloads/)
+1. Download and install [Python 3.8+](https://www.python.org/downloads/)
 
-2. Install requirements
+2. Create a virtual environment and install dependencies
 ```
+python3 -m venv nips-papers
+source nips-papers/bin/activate
+
 pip install beautifulsoup4
 pip install lxml
 pip install requests
 ```
 ## Running
 
-`python3 nips.py`
+`python nips.py`
 
 ## Example 
 
