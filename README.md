@@ -10,7 +10,7 @@ Web scraping for papers published at the Neural Information Processing Systems (
 
 1. Download and install [Python 3.8+](https://www.python.org/downloads/)
 
-2. Create a virtual environment and install dependencies 
+2. Create a virtual environment and install dependencies :
 ```
 python3 -m venv nips-papers
 source nips-papers/bin/activate
