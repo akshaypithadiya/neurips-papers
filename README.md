@@ -1,6 +1,6 @@
 # NeurIPS papers
 
-Web scraping for papers published at the Neural Information Processing Systems (NIPS)
+Papers published at the Neural Information Processing Systems (NIPS)
 
 [papers.nips.cc](http://papers.nips.cc/)
 
