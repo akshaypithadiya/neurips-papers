@@ -1,6 +1,6 @@
 # NeurIPS papers
 
-Papers published at the Neural Information Processing Systems (NIPS)
+Papers published at the Neural Information Processing Systems (NeurlIPS)
 
 [papers.nips.cc](http://papers.nips.cc/)
 
